@@ -1,0 +1,3 @@
+interface Diealogo {
+    void mostrar();
+}

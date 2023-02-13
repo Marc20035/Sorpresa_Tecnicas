@@ -1,3 +1,6 @@
+
+
+package lib;
 class Cliente {
    
     private Diealogo dialogo;

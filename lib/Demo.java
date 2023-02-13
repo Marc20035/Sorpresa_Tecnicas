@@ -1,3 +1,4 @@
+package lib;
 class Demo {
 
     public static void main(String[] args) {
@@ -6,8 +7,5 @@ class Demo {
         cliente = new Cliente(new FabricaMac());
         cliente.ejecutar();
     }
-
-
-
 
 }

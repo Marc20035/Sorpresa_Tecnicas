@@ -1,0 +1,15 @@
+@startuml
+skinparam groupInheritance 2
+class DialogoWindow{}
+class DialogoMac{}
+Interface Dialogo{}
+abstract FabricaDialogoWindows{}
+abstract FabricaDialogoMac{}
+class Cliente{
+ Dialogo
+}
+Dialogo -- DialogoMac
+Dialogo -- DialogoWindow
+Cliente <|-- FabricaDialogoWindows
+Cliente <|-- FabricaDialogoMac
+@enduml
